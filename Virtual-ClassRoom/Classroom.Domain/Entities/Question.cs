@@ -11,7 +11,9 @@ namespace Classroom.Domain.Entities
     {
         public int Id { get; set; }
         public string Title { get; set; }
-        public List<string> Answers { get; set; }
+        public int QuizId { get; set; }
+        public Quiz Quiz { get; set; }
+        public List<string> ModelAnswers { get; set; }
         public QuestionType QuestionType { get; set; }
         public int TotalMark { get; set;}
 

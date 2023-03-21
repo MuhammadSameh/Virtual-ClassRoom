@@ -11,9 +11,9 @@ namespace Classroom.Domain.Entities
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public List<Quiz> Quizzes { get; set; }
+        public List<Quiz> TeacherQuizzes { get; set; }
         public List<ClassRoom> Classrooms { get; set; }
-        public List<ClassRoomStudent> ClassroomsStudents { get; set; }
+        public List<AsssignedQuiz> StudentAssignedQuizzes { get; set; }
         
     }
 }

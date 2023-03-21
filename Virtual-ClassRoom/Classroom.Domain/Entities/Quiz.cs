@@ -12,6 +12,7 @@ namespace Classroom.Domain.Entities
         public string Description { get; set; }
         public List<Question> Questions { get; set; }
         public int TeacherId { get; set;}
-        public List<AssignedQuiz> AssignedTo { get; set; }
+        public User Teacher { get; set; }
+        public List<AsssignedQuiz> AssignedQuizzes { get; set; }
     }
 }

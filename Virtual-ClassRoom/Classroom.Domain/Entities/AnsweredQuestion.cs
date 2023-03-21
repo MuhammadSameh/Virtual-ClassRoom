@@ -10,7 +10,9 @@ namespace Classroom.Domain.Entities
     {
         public int Id { get; set; }
         public int QuestionId { get; set; }
+        public Question Question {get; set;}
         public int StudentId { get; set; }
+        public User Student { get; set; }
         public List<string> Answers { get; set; }
 
     }

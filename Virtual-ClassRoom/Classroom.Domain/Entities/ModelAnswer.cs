@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace Classroom.Domain.Entities
 {
-    public class ClassRoomStudent
+    class ModelAnswer
     {
-        public int Id { get; set; }
-        public int StudentId { get; set; }
-        public int ClassRoomId { get; set; }
     }
 }
